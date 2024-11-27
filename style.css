@@ -60,4 +60,28 @@ a {
     line-height: 1.4;
     padding-left: 10px;
 }
-    
+
+@media (max-width: 1250px) {
+    .container {
+        padding-left: 20px;
+    }
+    .content1{
+        margin-right: 50px;
+        padding-left: 0;
+    }
+
+    .content2 {
+        margin-left: 0;
+    }
+    #title {
+        font-size: 5rem;
+        
+    }
+
+    #aim {
+        margin-right: 200px;
+        margin-bottom: 10px;
+        font-size: 0.9rem;
+        padding-left: 0;
+    }
+}
